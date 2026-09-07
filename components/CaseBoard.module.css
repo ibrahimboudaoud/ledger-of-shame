@@ -1,0 +1,77 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 0 4px 16px;
+  color: var(--paper);
+}
+
+.backLink {
+  font-family: var(--font-typewriter), monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--paper-yellow);
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.backLink:hover {
+  opacity: 1;
+}
+
+.caseTitle {
+  flex: 1;
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  color: var(--paper);
+}
+
+.corkboard {
+  position: relative;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.boardScroll {
+  overflow: auto;
+  max-width: 100%;
+}
+
+.board {
+  position: relative;
+}
+
+.svgLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.emptyBoard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-handwriting), cursive;
+  font-size: 1.1rem;
+  color: rgba(42, 33, 24, 0.6);
+  white-space: nowrap;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}

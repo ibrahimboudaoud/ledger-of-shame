@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 240px;
+}
+
+.wide {
+  width: 300px;
+}
+
+.error {
+  font-family: var(--font-typewriter), monospace;
+  font-size: 0.72rem;
+  color: var(--stamp-red);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.checkboxRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-handwriting), cursive;
+  font-size: 0.95rem;
+}

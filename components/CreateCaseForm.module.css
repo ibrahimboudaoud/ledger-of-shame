@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 360px;
+  transform: rotate(-1deg);
+}
+
+.heading {
+  margin-bottom: 4px;
+}
+
+.error {
+  color: var(--stamp-red);
+  font-family: var(--font-typewriter), monospace;
+  font-size: 0.8rem;
+}

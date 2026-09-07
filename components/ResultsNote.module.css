@@ -1,0 +1,20 @@
+.closedStamp {
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  transform: rotate(-6deg);
+}
+
+.note {
+  max-width: 300px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.line {
+  font-size: 0.8rem;
+}
